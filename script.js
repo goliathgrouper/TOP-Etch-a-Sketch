@@ -30,7 +30,8 @@ const changeGrid = document.querySelector('#grid-size');
 
 changeGrid.addEventListener('click', () => {
     let grid = prompt();
-    while (grid < 0 || grid > 100) {
+    while (grid < 1 || grid > 100) {
+        alert('Enter number from 1 to 100');
         grid = prompt();
     }
     let oldGrid = document.querySelectorAll('#container > div');
