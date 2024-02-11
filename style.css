@@ -2,7 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     border: 1px solid black;
-    width: 672px;
+    width: 700px;
+    height: 700px;
 }
 
 /*
@@ -11,5 +12,9 @@ body {
     justify-content: center;
     min-width: 675px;
 }
-*\
+*/
 
+#grid-size {
+    padding: 5px;
+    margin-bottom: 10px;
+}
