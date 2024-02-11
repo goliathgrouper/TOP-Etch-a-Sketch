@@ -39,4 +39,4 @@ changeGrid.addEventListener('click', () => {
         container.removeChild(square);
     })
     generateGrid(grid);
-})
+});
